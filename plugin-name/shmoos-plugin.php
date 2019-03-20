@@ -13,9 +13,9 @@
  * @package           Shmoos_Plugin
  *
  * @wordpress-plugin
- * Plugin Name:       WordPress Plugin Boilerplate
+ * Plugin Name:       Shmoo's Test Plugin
  * Plugin URI:        http://example.com/shmoos-plugin-uri/
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       What does this plugin do, you ask? Nothing yet.
  * Version:           1.0.0
  * Author:            Your Name or Your Company
  * Author URI:        http://example.com/
