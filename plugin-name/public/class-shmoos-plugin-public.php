@@ -100,4 +100,8 @@ class Shmoos_Plugin_Public {
 
 	}
 
+	public function modify_post_content() {
+		# i have no idea
+	}
+
 }
