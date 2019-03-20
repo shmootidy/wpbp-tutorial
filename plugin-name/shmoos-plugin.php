@@ -41,7 +41,7 @@ define( 'PLUGIN_NAME_VERSION', '1.0.0' );
  * The code that runs during plugin activation.
  * This action is documented in includes/class-shmoos-plugin-activator.php
  */
-function activate_plugin_name() {
+function activate_shmoos_plugin() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-shmoos-plugin-activator.php';
 	Shmoos_Plugin_Activator::activate();
 }
@@ -50,13 +50,13 @@ function activate_plugin_name() {
  * The code that runs during plugin deactivation.
  * This action is documented in includes/class-shmoos-plugin-deactivator.php
  */
-function deactivate_plugin_name() {
+function deactivate_shmoos_plugin() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-shmoos-plugin-deactivator.php';
 	Shmoos_Plugin_Deactivator::deactivate();
 }
 
-register_activation_hook( __FILE__, 'activate_plugin_name' );
-register_deactivation_hook( __FILE__, 'deactivate_plugin_name' );
+register_activation_hook( __FILE__, 'activate_shmoos_plugin' );
+register_deactivation_hook( __FILE__, 'deactivate_shmoos_plugin' );
 
 /**
  * The core plugin class that is used to define internationalization,
@@ -73,10 +73,10 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-shmoos-plugin.php';
  *
  * @since    1.0.0
  */
-function run_plugin_name() {
+function run_shmoos_plugin() {
 
 	$plugin = new Shmoos_Plugin();
 	$plugin->run();
 
 }
-run_plugin_name();
+run_shmoos_plugin();
