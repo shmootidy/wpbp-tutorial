@@ -24,7 +24,7 @@
  * @subpackage Shmoos_Plugin/includes
  * @author     Your Name <email@example.com>
  */
-class Plugin_Name_i18n {
+class Shmoos_Plugin_i18n {
 
 
 	/**

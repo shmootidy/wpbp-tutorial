@@ -43,7 +43,7 @@ define( 'PLUGIN_NAME_VERSION', '1.0.0' );
  */
 function activate_plugin_name() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-shmoos-plugin-activator.php';
-	Plugin_Name_Activator::activate();
+	Shmoos_Plugin_Activator::activate();
 }
 
 /**
@@ -52,7 +52,7 @@ function activate_plugin_name() {
  */
 function deactivate_plugin_name() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-shmoos-plugin-deactivator.php';
-	Plugin_Name_Deactivator::deactivate();
+	Shmoos_Plugin_Deactivator::deactivate();
 }
 
 register_activation_hook( __FILE__, 'activate_plugin_name' );

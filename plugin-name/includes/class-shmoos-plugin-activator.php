@@ -20,7 +20,7 @@
  * @subpackage Shmoos_Plugin/includes
  * @author     Your Name <email@example.com>
  */
-class Plugin_Name_Activator {
+class Shmoos_Plugin_Activator {
 
 	/**
 	 * Short Description. (use period)

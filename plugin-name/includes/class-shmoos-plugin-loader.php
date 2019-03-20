@@ -21,7 +21,7 @@
  * @subpackage Shmoos_Plugin/includes
  * @author     Your Name <email@example.com>
  */
-class Plugin_Name_Loader {
+class Shmoos_Plugin_Loader {
 
 	/**
 	 * The array of actions registered with WordPress.
