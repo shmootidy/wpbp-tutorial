@@ -9,7 +9,7 @@ The Plugin Directory Boilerplate includes the following files:
 * `.gitignore`. Used to exclude certain files from the repository.
 * `CHANGELOG.md`. The list of changes to the core project.
 * `README.md`. The file that you’re currently reading.
-* A `plugin-name` subdirectory that contains the Assets folder with the image sizes needed to display on WordPress.org and a trunk folder for your plugin code.
+* A `shmoos-plugin` subdirectory that contains the Assets folder with the image sizes needed to display on WordPress.org and a trunk folder for your plugin code.
 * A `trunk` folder for the contents of your plugin folder and the GPL v2 included.
 * Inside the trunk folder is a sample `README.txt` file you can edit so that the directory information is pulled from it correctly. 
 
